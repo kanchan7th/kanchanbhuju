@@ -7,7 +7,7 @@ const DownloadButton = () => {
     const cvFilePath = process.env.PUBLIC_URL + '/kanchan_resumee.pdf';
     const link = document.createElement('a');
     link.href = cvFilePath;
-    link.download = 'kanchan_finalcv.pdf';
+    link.download = 'kanchan_resumee.pdf';
     link.click();
   };
 

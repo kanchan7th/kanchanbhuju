@@ -3,10 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 // fadein
 import { fadeIn } from "../variants";
-// images
-import img1 from "../assets/portfolio-img1.png";
-import img2 from "../assets/portfolio-img2.png";
-import img3 from "../assets/portfolio-img3.png";
+
 
 const Work = () => {
   return (
@@ -36,7 +33,7 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex flex-1 gap-x-10">
+            className="flex flex-col lg:flex-row flex-1 gap-x-10">
             <div className="flex-1">
             <div className="flex items-center justify-between w-full rounded overflow-hidden shadow-lg mb-10">
               <div className="px-6 py-4">

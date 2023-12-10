@@ -1,6 +1,6 @@
 import React from "react";
 // countup
-import CountUp from "react-countup";
+// import CountUp from "react-countup";
 // interaction observer hook
 import { useInView } from "react-intersection-observer";
 // motion
